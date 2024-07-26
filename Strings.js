@@ -1,0 +1,21 @@
+let name="Ameer Hamza"
+let city="karachi";
+console.log(`AoA i am ${name} from ${city}`);
+const studentName=String  ("zubair");
+console.log(studentName[0]);
+console.log (studentName);
+console.log (studentName.__proto__);
+console.log(studentName.length);
+console.log(studentName.toUpperCase());
+console.log(studentName.charAt(2));
+console.log(studentName.indexOf('i'));
+const string1=studentName.substring(1,3);
+console.log(string1);
+const string2=studentName.slice(-4,2);
+console.log(string2);
+const string3="  Ameer Hamza ";
+console.log(string3.trim());
+const url="wwww.cricket.com";
+console.log(url.replace('cricket','hockey'));
+console.log(url.includes('cricket'));
+console.log(studentName.split('-'));
